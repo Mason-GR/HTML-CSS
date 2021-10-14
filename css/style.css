@@ -213,7 +213,8 @@ pre {
 
 /* Features */
 .features-head img,
-.docs-head img {
+.docs-head img,
+.docs-head .fa-question {
   width: 200px;
   justify-self: flex-end;
 }
@@ -281,8 +282,18 @@ pre {
 }
 
 /* Footer */
+.footer .grid li a {
+  color: #b3b3b3;
+}
+
 .footer .social a {
   margin: 0 10px;
+  color: #b3b3b3;
+}
+
+.footer .grid li a:hover,
+.footer .social a:hover {
+  color: #fff;
 }
 
 /* Animations */
